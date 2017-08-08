@@ -13,7 +13,7 @@ function Reloj () {
 	x.innerHTML = hora + " : " + min + " : " + seg;
 	
 	
-	console.log("Hola mundo");
+	
 }
 
 	
