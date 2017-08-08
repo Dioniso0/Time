@@ -11,6 +11,9 @@ function Reloj () {
 
 	var x = document.getElementById('print');
 	x.innerHTML = hora + " : " + min + " : " + seg;
+	
+	
+	console.log("Hola mundo");
 }
 
 	
