@@ -9,8 +9,13 @@ function Reloj () {
 
 	var recarga = setTimeout('Reloj()',500);
 
-	var x = document.getElementById('print');
-	x.innerHTML = hora + " : " + min + " : " + seg;
+	var x = document.getElementById('Hora');
+	var y = document.getElementById('Min');
+	var z = document.getElementById('Seg');
+
+	x.innerHTML = hora;
+	y.innerHTML = min;
+	z.innerHTML = seg;
 	
 	
 	
