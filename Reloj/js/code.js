@@ -17,9 +17,6 @@ function Reloj () {
 	x.innerHTML = hora;
 	y.innerHTML = min;
 	z.innerHTML = seg;
-	
-	console.log('asdasdads');
-	
 }
 
 	
